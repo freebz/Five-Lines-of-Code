@@ -1,0 +1,13 @@
+// 예제 4.83 초기 코드
+
+function canMove(start: Tile, end: Tile, dx: number, dy: number) {
+  return dx * abs(start.x - end.x) === dy * abs(start.y - end.y)
+      || dy * abs(start.x - end.x) === dx * abs(start.y - end.y);
+}
+/// ...
+if (canMove(start, end, 1, 0)) // 룩
+/// ...
+if (canMove(start, end, 1, 1)) // 비숍
+/// ...
+if (canMove(start, end, 1, 2)) // 나이트
+/// ...
