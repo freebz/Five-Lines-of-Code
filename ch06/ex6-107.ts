@@ -1,0 +1,12 @@
+// 예제 6.107 변경 전
+
+enum RawTile {
+  AIR,
+  FLUX,
+  UNBREAKABLE,
+  PLAYER,
+  STONE, FALLING_STONE,
+  BOX, FALLING_BOX,
+  KEY1, LOCK1,
+  KEY2, LOCK2
+}
